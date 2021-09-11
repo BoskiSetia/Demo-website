@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    margin: 15px;
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.form-group{
+    margin: 15px;
+    padding: 0 10px ;
+}
+    label{
+    font-family: sans-serif;
+    }
+
+input{
+    border: 1px solid #000;
+    background: transparent;
+    outline: none;
+    
+    height: 50px;
+}
+
+.btn-submit{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'blackjack',sans-serif;
+}
+ button{  
+    border: 1px solid #000;
+    height: 40px;
+    margin: 5px;
+}
+button:hover{
+    box-shadow: -1px 4px 12px 11px rgba(219, 207, 207, 0.75);
+    color: #e47a17;
+}

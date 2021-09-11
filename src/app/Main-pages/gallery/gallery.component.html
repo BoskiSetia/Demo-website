@@ -1,0 +1,15 @@
+<!-- gallery -->
+<section class="information gallery">
+    <div class="container-fluid" *ngFor='let info of information'>
+        <div class="box">
+            <div class="imgbox">
+                <img [src]="info.image">
+            </div>
+            <div class="content">
+                <h4>{{info.name}}</h4>
+                <p>{{info.description}}</p>
+
+            </div>
+        </div>
+    </div>
+</section>
